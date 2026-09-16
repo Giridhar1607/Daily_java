@@ -1,8 +1,22 @@
 # Daily_java
 
----> Day: 1 <br>
-    1. Simple Interest and Eligibility Calculator <br>
+--> Day: 1 <br>
+    1. Simple Interest and Eligibility Calculator
     `FinancialAnalyzer.java`  <br>
-    2. Overloaded Geometry Area Calculator <br>
-    ``<br>
+    2. Overloaded Geometry Area Calculator 
+    `AreaCalculatr.java`<br>
+
+--> Day: 2 <br>
+     1. Even and Odd Counter `ArrayCounter.java` <br>
+     2. Scalar Multiplication `Arrayscaler.java` <br>
+     3. Sorted Order Checker  `sortChecker.java` <br>
+     4. Second Largest Element Finder `secondLargest.java` <br>
+
+--> Day: 3 <br>
+    1. Palindrome Checker    `palindromeCheck.java`     <br>
+    2. Vowel & Word Counter  `voweCount.java`     <br>
+    3. Reverse Words in a Sentence `revWord.java` <br>
+    4. Character Frequency Finder  `charFreq.java`  <br>
+
+
     
