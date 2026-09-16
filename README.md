@@ -18,5 +18,9 @@
     3. Reverse Words in a Sentence `revWord.java` <br>
     4. Character Frequency Finder  `charFreq.java`  <br>
 
-
+--> Day: 4 <br>
+    1.Create Your First Class with a Constructor `construChain`<br>
+    2.Default vs. Parameterized Constructor `book.java`<br>
+    3.Constructor Chaining with this()  `construChain.java`<br>
+    4.Constructor + Validation Logic `constValid.java`<br>
     
