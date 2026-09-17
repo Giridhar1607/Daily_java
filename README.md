@@ -24,7 +24,7 @@
     3.Constructor Chaining with this()  `construChain.java`<br>
     4.Constructor + Validation Logic `constValid.java`<br>
 
---> Day: 5  <br>
+--> Day: 5 -test  <br>
     1.  prime number or not & perfect number or not `aprime_perfect.java`<br>
     2.  Fibonacci series up to n terms `afibbonacci.java` <br>
     3.  second largest element & frequency of each element `aArrayopera.java` <br>
