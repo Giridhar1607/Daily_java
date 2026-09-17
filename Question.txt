@@ -1,0 +1,92 @@
+**********DAY- 1 ************
+1. Simple Interest and Eligibility Calculator
+Create a Java class named `FinancialAnalyzer` using only primitive variables (`double` for principal and rate, `int` for years, and `boolean` for loyalty status). Implement the following methods:
+* `double calculateInterest(double principal, double rate, int years)`: Computes and returns the simple interest using the formula $(principal \times rate \times years) / 100$.
+* `double applyBonus(double interest, boolean isLoyal)`: Adds a flat $50.0$ bonus to the interest amount if the boolean parameter is true, then returns the final value.
+* `void displayMetrics(double finalAmount)`: Prints the numerical output directly to the console.
+
+
+*Requirements:* Write a `main` method to initialize your variables, invoke these methods sequentially, and pass the results between them without using any `String` objects or arrays.
+2. **Overloaded Geometry Area Calculator**
+Create a Java class named `AreaCalculator` that uses method overloading to compute geometric areas using different primitive datatypes (`int`, `double`, `float`). Implement three static methods sharing the name `calculateArea`:
+* `int calculateArea(int side)`: Computes the area of a square ($side \times side$).
+* `double calculateArea(double length, double width)`: Computes the area of a rectangle ($length \times width$).
+* `float calculateArea(float radius)`: Computes the area of a circle using $3.14159f \times radius \times radius$.
+
+**********DAY -2 ************
+1. **Even and Odd Counter**
+Create a Java class named `ArrayCounter` with a `main` method. Initialize an integer array with at least six numbers. Write a loop to traverse the array, count how many elements are even and how many are odd, and print both counts directly to the console.
+2. **Scalar Multiplication**
+Create a Java class named `ArrayScaler` with a `main` method. Declare and initialize an integer array of size 5 with custom values, and define a separate integer scalar variable (e.g., `3`). Write a loop that multiplies each element of the array by the scalar value, updates the array in place, and then print the modified elements.
+3. **Sorted Order Checker**
+Create a Java class named `SortChecker` with a `main` method. Initialize an integer array. Write a loop to check whether the elements in the array are arranged in strict ascending order. Print a boolean or text result indicating whether the array is sorted or not.
+4. **Second Largest Element Finder**
+Create a Java class named `SecondLargest` with a `main` method. Initialize an integer array with unsorted numbers. Write a logic using loops and variables to find and print the second largest number in the array without sorting the entire array first.
+
+*********Day-3 **************
+Task 1: Palindrome Checker (Easy)
+Write a program that reads a string from the user and checks whether it's a palindrome (reads the same forwards and backwards, ignoring case).
+Example: "Madam" → Palindrome, "Java" → Not a palindrome
+Concepts tested: charAt(), loop traversal, string comparison
+Task 2: Vowel & Word Counter (Easy-Medium)
+Write a program that counts:
+Total number of vowels in the string
+Number of words in the sentence (assume words are separated by single spaces)
+Example: "I love java" → Vowels: 5, Words: 3
+Concepts tested: iteration, charAt(), counting logic
+Task 3: Reverse Words in a Sentence (Medium)
+Given a sentence, reverse each word in place without reversing the whole sentence.
+Example: Input: "hello world java" → Output: "olleh dlrow avaj"
+Hint: Use split(" ") to break the sentence into words, reverse each word with a loop, and join them back.
+Concepts tested: split(), loops, string concatenation/StringBuilder
+Task 4: Character Frequency Finder (Hard)
+Write a program that finds the first non-repeating character in a string.
+Example: "programming" → First non-repeating character is p (since 'r', 'o', 'g', etc. repeat)
+Hint: Use two nested loops or an array of size 26 (for 'a'–'z') to count frequencies, then scan the string again.
+Concepts tested: array indexing with characters, two-pass logic, problem decomposition
+
+*************DAY- 4 ************
+Task 1: Create Your First Class with a Constructor (Easy)
+Create a class Student with:
+Fields: name (String), age (int), studentId (String)
+A parameterized constructor that initializes all three fields
+A display() method that prints the student details
+In main(), create 2–3 Student objects with different values and display them.
+Concepts tested: parameterized constructor, object creation, this keyword (introduce it here)
+
+Task 2: Default vs. Parameterized Constructor (Easy-Medium)
+Create a class Book with fields: title, author, and price.
+Write a no-arg (default) constructor that sets price = 0 and title/author to "Unknown"
+Write a parameterized constructor that accepts all three values
+Write a constructor that accepts only title and author, and sets price to 100 by default
+In main(), create three Book objects — one using each constructor — and display all details.
+Concepts tested: constructor overloading, default values, when Java provides a default constructor vs. when it doesn't
+
+Task 3: Constructor Chaining with this() (Medium)
+Create a class BankAccount with fields: accountNumber, accountHolder, balance.
+Write a constructor that takes all three fields
+Write a constructor that takes only accountNumber and accountHolder, and chains to the first constructor with an initial balance of 500 using this(...)
+Write a no-arg constructor that chains to the second with default values "SBI0000" and "Guest"
+In main(), create objects using each constructor and print the details.
+Concepts tested: this() call, reducing code duplication — emphasize that this() must be the first statement
+
+Task 4: Constructor + Validation Logic (Hard)
+Create a class Employee with fields: empId, name, salary.
+Write a parameterized constructor that validates the input:
+empId must start with "EMP" (e.g., "EMP101" is valid, "ABC101" is not)
+salary must be greater than 0
+If validation fails, print an error message and assign default values (empId = "EMP000", salary = 0, name = "Invalid")
+Use constructor chaining so the no-arg constructor reuses the same logic
+In main(), test with valid and invalid inputs.
+Concepts tested: real-world constructor usage, validation inside constructors, chaining combined with business logic — great bridge to the next OOP topics (methods + encapsulation)
+
+
+************Day -5***************
+
+
+
+
+
+
+
+
