@@ -83,9 +83,37 @@ Concepts tested: real-world constructor usage, validation inside constructors, c
 
 ************Day -5***************
 
+Section A: Basics (10 marks)
+Q1. Write a program that reads a number n from the user and prints whether it is:
+A prime number or not (3 marks)
+A perfect number or not (sum of its divisors = the number itself, e.g., 6 = 1+2+3) (3 marks)
 
+Q2. Write a program that prints the Fibonacci series up to n terms using a loop. (4 marks)
+Example: n = 7 → 0 1 1 2 3 5 8
+Section B: Arrays (15 marks)
 
+Q3. Write a program that reads 10 integers into an array and:
+Finds the second largest element (4 marks)
+Counts the frequency of each element (e.g., {1, 2, 2, 3, 1} → 1 occurs 2 times, 2 occurs 2 times, 3 occurs 1 time) (6 marks)
+Prints all duplicate elements (5 marks)
+Section C: Strings (15 marks)
 
+Q4. Write a program that reads a sentence and:
+Counts the number of words and number of vowels (4 marks)
+Converts the sentence to Title Case (first letter of each word capitalized) — without using built-in methods like substring()/toUpperCase() for the whole string, but charAt() and Character methods are allowed (5 marks)
+Example: "hello world java" → "Hello World Java"
+
+Q5. Write a program to check if a string is a palindrome, ignoring case and spaces. (6 marks)
+Example: "A man a plan a canal Panama" → Palindrome
+Section D: Constructors (10 marks)
+
+Q6. Create a class Product with fields: productId (String), productName (String), price (double), quantity (int). Write:
+A no-arg constructor that sets defaults: "P000", "Unknown", 0.0, 0 (3 marks)
+A parameterized constructor for all fields (3 marks)
+A constructor that takes only productName and price, and chains to the parameterized constructor with "AUTO" as productId and quantity 1 using this(...) (4 marks)
+In main(), create one object using each constructor and display all details.
+
+ 
 
 
 
