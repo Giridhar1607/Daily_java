@@ -23,4 +23,11 @@
     2.Default vs. Parameterized Constructor `book.java`<br>
     3.Constructor Chaining with this()  `construChain.java`<br>
     4.Constructor + Validation Logic `constValid.java`<br>
-    
+
+--> Day: 5  <br>
+    1.  prime number or not & perfect number or not `aprime_perfect.java`<br>
+    2.  Fibonacci series up to n terms `afibbonacci.java` <br>
+    3.  second largest element & frequency of each element `aArrayopera.java` <br>
+    4.  Counts the number of words and number of vowels & Converts the sentence to Title Case `avowelTitle.java` <br>
+    5.  if a string is a palindrome, ignoring case and spaces... `apalindrmeCheck.java` <br>
+    6 . A parameterized constructor for all field .... `aConstructor.java` <br>
